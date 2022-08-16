@@ -4,14 +4,14 @@
     "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Web\\Shop.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Web\\Shop.Web.csproj": {
+    "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Data\\Shop.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Web\\Shop.Web.csproj",
-        "projectName": "Shop.Web",
-        "projectPath": "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Web\\Shop.Web.csproj",
+        "projectUniqueName": "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Data\\Shop.Data.csproj",
+        "projectName": "Shop.Data",
+        "projectPath": "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Data\\Shop.Data.csproj",
         "packagesPath": "C:\\Users\\BS968\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Web\\obj\\",
+        "outputPath": "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BS968\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,218 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Repository\\Shop.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Repository\\Shop.Repository.csproj",
+        "projectName": "Shop.Repository",
+        "projectPath": "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Repository\\Shop.Repository.csproj",
+        "packagesPath": "C:\\Users\\BS968\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BS968\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Data\\Shop.Data.csproj": {
+                "projectPath": "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Data\\Shop.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Service\\Shop.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Service\\Shop.Service.csproj",
+        "projectName": "Shop.Service",
+        "projectPath": "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Service\\Shop.Service.csproj",
+        "packagesPath": "C:\\Users\\BS968\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BS968\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Data\\Shop.Data.csproj": {
+                "projectPath": "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Data\\Shop.Data.csproj"
+              },
+              "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Repository\\Shop.Repository.csproj": {
+                "projectPath": "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Repository\\Shop.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Web\\Shop.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Web\\Shop.Web.csproj",
+        "projectName": "Shop.Web",
+        "projectPath": "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Web\\Shop.Web.csproj",
+        "packagesPath": "C:\\Users\\BS968\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\BS968\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Repository\\Shop.Repository.csproj": {
+                "projectPath": "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Repository\\Shop.Repository.csproj"
+              },
+              "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Service\\Shop.Service.csproj": {
+                "projectPath": "C:\\Users\\BS968\\source\\repos\\Shop\\Shop.Service\\Shop.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

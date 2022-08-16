@@ -1,0 +1,17 @@
+C:\Users\BS968\source\repos\Shop\Shop.Repository\bin\Debug\net6.0\Shop.Repository.deps.json
+C:\Users\BS968\source\repos\Shop\Shop.Repository\bin\Debug\net6.0\Shop.Repository.runtimeconfig.json
+C:\Users\BS968\source\repos\Shop\Shop.Repository\bin\Debug\net6.0\Shop.Repository.dll
+C:\Users\BS968\source\repos\Shop\Shop.Repository\bin\Debug\net6.0\Shop.Repository.pdb
+C:\Users\BS968\source\repos\Shop\Shop.Repository\bin\Debug\net6.0\Shop.Data.dll
+C:\Users\BS968\source\repos\Shop\Shop.Repository\bin\Debug\net6.0\Shop.Data.pdb
+C:\Users\BS968\source\repos\Shop\Shop.Repository\obj\Debug\net6.0\Shop.Repository.csproj.AssemblyReference.cache
+C:\Users\BS968\source\repos\Shop\Shop.Repository\obj\Debug\net6.0\Shop.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BS968\source\repos\Shop\Shop.Repository\obj\Debug\net6.0\Shop.Repository.AssemblyInfoInputs.cache
+C:\Users\BS968\source\repos\Shop\Shop.Repository\obj\Debug\net6.0\Shop.Repository.AssemblyInfo.cs
+C:\Users\BS968\source\repos\Shop\Shop.Repository\obj\Debug\net6.0\Shop.Repository.csproj.CoreCompileInputs.cache
+C:\Users\BS968\source\repos\Shop\Shop.Repository\obj\Debug\net6.0\Shop.Repository.csproj.CopyComplete
+C:\Users\BS968\source\repos\Shop\Shop.Repository\obj\Debug\net6.0\Shop.Repository.dll
+C:\Users\BS968\source\repos\Shop\Shop.Repository\obj\Debug\net6.0\refint\Shop.Repository.dll
+C:\Users\BS968\source\repos\Shop\Shop.Repository\obj\Debug\net6.0\Shop.Repository.pdb
+C:\Users\BS968\source\repos\Shop\Shop.Repository\obj\Debug\net6.0\Shop.Repository.genruntimeconfig.cache
+C:\Users\BS968\source\repos\Shop\Shop.Repository\obj\Debug\net6.0\ref\Shop.Repository.dll

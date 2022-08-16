@@ -1,0 +1,17 @@
+C:\Users\BS968\source\repos\Shop\Shop.Service\bin\Debug\net6.0\Shop.Service.deps.json
+C:\Users\BS968\source\repos\Shop\Shop.Service\bin\Debug\net6.0\Shop.Service.dll
+C:\Users\BS968\source\repos\Shop\Shop.Service\bin\Debug\net6.0\Shop.Service.pdb
+C:\Users\BS968\source\repos\Shop\Shop.Service\bin\Debug\net6.0\Shop.Data.dll
+C:\Users\BS968\source\repos\Shop\Shop.Service\bin\Debug\net6.0\Shop.Repository.dll
+C:\Users\BS968\source\repos\Shop\Shop.Service\bin\Debug\net6.0\Shop.Data.pdb
+C:\Users\BS968\source\repos\Shop\Shop.Service\bin\Debug\net6.0\Shop.Repository.pdb
+C:\Users\BS968\source\repos\Shop\Shop.Service\obj\Debug\net6.0\Shop.Service.csproj.AssemblyReference.cache
+C:\Users\BS968\source\repos\Shop\Shop.Service\obj\Debug\net6.0\Shop.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BS968\source\repos\Shop\Shop.Service\obj\Debug\net6.0\Shop.Service.AssemblyInfoInputs.cache
+C:\Users\BS968\source\repos\Shop\Shop.Service\obj\Debug\net6.0\Shop.Service.AssemblyInfo.cs
+C:\Users\BS968\source\repos\Shop\Shop.Service\obj\Debug\net6.0\Shop.Service.csproj.CoreCompileInputs.cache
+C:\Users\BS968\source\repos\Shop\Shop.Service\obj\Debug\net6.0\Shop.Service.csproj.CopyComplete
+C:\Users\BS968\source\repos\Shop\Shop.Service\obj\Debug\net6.0\Shop.Service.dll
+C:\Users\BS968\source\repos\Shop\Shop.Service\obj\Debug\net6.0\refint\Shop.Service.dll
+C:\Users\BS968\source\repos\Shop\Shop.Service\obj\Debug\net6.0\Shop.Service.pdb
+C:\Users\BS968\source\repos\Shop\Shop.Service\obj\Debug\net6.0\ref\Shop.Service.dll
