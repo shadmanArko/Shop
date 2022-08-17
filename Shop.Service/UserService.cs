@@ -21,7 +21,7 @@ namespace Shop.Service
             return userRepository.GetAll();
         }
 
-        public User GetUser(long id)
+        public User GetUser(int id)
         {
             return userRepository.Get(id);
         }
@@ -36,11 +36,12 @@ namespace Shop.Service
             userRepository.Update(user);
         }
 
-        public void DeleteUser(long id)
+        public void DeleteUser(int id)
         {
             User user = userRepository.Get(id);
             userRepository.Remove(user);
             userRepository.SaveChanges();
         }
+
     }
 }

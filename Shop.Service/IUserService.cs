@@ -10,9 +10,10 @@ namespace Shop.Service
     public interface IUserService
     {
         IEnumerable<User> GetUsers();
-        User GetUser(long id);
+        User GetUser(int id);
         void InsertUser(User user);
         void UpdateUser(User user);
-        void DeleteUser(long id);
+        void DeleteUser(int id);
+       
     }
 }

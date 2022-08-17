@@ -10,7 +10,7 @@ namespace Shop.Repository.Shop_Repository
     public interface IUserRepository<T> where T : Base
     {
         IEnumerable<T> GetAll();
-        T Get(long id);
+        T Get(int? id);
         void Insert(T entity);
         void Update(T entity);
         void Delete(T entity);

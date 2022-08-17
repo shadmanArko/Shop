@@ -26,7 +26,8 @@ namespace Shop.Repository.Shop_Repository
             return entities.AsEnumerable();
         }
 
-        public T Get(long id)
+
+        public T Get(int? id)
         {
             return entities.SingleOrDefault(s => s.Id == id);
         }
@@ -47,6 +48,8 @@ namespace Shop.Repository.Shop_Repository
             {
                 throw new ArgumentNullException("entity");
             }
+
+            entities.Update(entity);
             _context.SaveChanges();
         }
 
