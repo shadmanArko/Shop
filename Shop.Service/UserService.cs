@@ -8,7 +8,7 @@ using Shop.Repository.Shop_Repository;
 
 namespace Shop.Service
 {
-    internal class UserService : IUserService
+    public class UserService : IUserService
     {
         private IUserRepository<User> userRepository;
 

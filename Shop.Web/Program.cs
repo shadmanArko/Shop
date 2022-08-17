@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Shop.Repository;
+using Shop.Repository.Shop_Repository;
+using Shop.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddScoped(typeof(IUserRepository<>), typeof(UserRepository<>));
+builder.Services.AddTransient<IUserService, UserService>();
 
 var app = builder.Build();
 
