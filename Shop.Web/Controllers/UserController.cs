@@ -71,7 +71,43 @@ namespace Shop.Web.Controllers
             return View(obj);
         }
 
+
+        //get
+        public IActionResult Delete(int id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+
+            var userForDb = userService.GetUser(id);
+
+            if (userForDb == null)
+            {
+                return NotFound();
+            }
+
+            return View(userForDb);
+        }
+
+
+        //post
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeletePOST(int id)
+        {
+            var obj = userService.GetUser(id);
+            if (obj == null)
+            {
+                return NotFound();
+            }
+
+            userService.DeleteUser(id);
+            return RedirectToAction("Index");
+        }
+
+
     }
 
-    
+
 }
